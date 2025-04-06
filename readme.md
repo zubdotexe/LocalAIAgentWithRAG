@@ -2,7 +2,6 @@
 
 This project demonstrates how to build a local AI agent using Python, leveraging tools such as Ollama, LangChain, and ChromaDB. The agent is capable of answering questions about a document by retrieving relevant information from the data and generating responses using a local language model.
 
----
 
 ## Features
 
@@ -11,7 +10,7 @@ This project demonstrates how to build a local AI agent using Python, leveraging
 - **Customizable**: Easily adapt the code to work with different datasets or queries.
 - **Efficient**: Uses lightweight models that can run on machines with basic hardware.
 
----
+
 
 ## Demo
 
@@ -26,7 +25,6 @@ Example output:
 overall deliciousness.
 
 
----
 
 ## Getting Started
 
@@ -73,7 +71,6 @@ ollama pull my-bi-embed-large
 ```
 
 
----
 
 ## Usage
 
@@ -95,7 +92,7 @@ Ask questions about the dataset, such as:
 * What is the best pizza place in town? 
 * What do customers say about vegan options?
 
----
+
 
 ## Project Structure
 
@@ -108,7 +105,7 @@ LocalAIAgentWithRAG/
 └── README.md             # Project documentation
 ```
 
----
+
 
 ## Technologies Used
 
@@ -117,7 +114,7 @@ LocalAIAgentWithRAG/
 - **Ollama**: Tool for running local language models.
 - **ChromaDB**: Vector database for efficient document retrieval.
 
----
+
 
 ## Customization
 
@@ -125,14 +122,14 @@ LocalAIAgentWithRAG/
 2. Modify prompts in `main.py` to suit your use case.
 3. Experiment with different models available in Ollama's library.
 
----
+
 
 ## Troubleshooting
 
 - Ensure you have sufficient hardware resources to run the selected models.
 - If you encounter issues with Ollama, refer to their [documentation](https://ollama.com/library).
 
----
+
 
 ## Acknowledgments
 
