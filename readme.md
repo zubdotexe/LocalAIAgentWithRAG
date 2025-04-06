@@ -133,8 +133,8 @@ LocalAIAgentWithRAG/
 
 ## Acknowledgments
 
-Special thanks to [Tech With Tim](https://www.youtube.com/@TechWithTim) for creating this tutorial and Microsoft for sponsoring it.
+Special thanks to [Tech With Tim](https://www.youtube.com/@TechWithTim) for creating this tutorial.
 
----
+##
 
 Enjoy building your local AI agent! 🚀
