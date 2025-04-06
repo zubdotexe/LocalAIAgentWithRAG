@@ -5,9 +5,9 @@ from vector import retriever
 model = OllamaLLM(model="gemma3:1b")
 
 template = """
-    You are an expert in answering questions and giving advice when you are provided documents
+    You are an expert in answering questions about a pizza restaurant
 
-    Here are some relevant context: {context}
+    Here are some relevant reviews: {reviews}
 
     Here is the question to answer: {question}
 """
@@ -26,7 +26,7 @@ while True:
         print("Quitting the program...\n\n")
         break
     
-    context = retriever.invoke(question)
-    result = chain.invoke({"context": context, "question": question})
+    reviews = retriever.invoke(question)
+    result = chain.invoke({"reviews": reviews, "question": question})
 
     print(result)
